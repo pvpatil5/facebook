@@ -13,6 +13,7 @@ public class FB_join {
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.facebook.com/");
+		driver.getTitle();
 	}
 
 }
